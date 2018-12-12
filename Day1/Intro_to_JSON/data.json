@@ -1,0 +1,48 @@
+[{
+"animal":"cow",
+"weight": {
+    "amount":{"min":300 ,"max":1500},
+    "unit":"kg"
+},
+"location":"Bovine range",
+"endangerd": false,
+"food":"Cattle are ruminants, meaning their digestive system is highly specialized to allow the use of poorly digestible plants as food.",
+"predators":["humans","lians","tigers","wolfs"],
+"deliciousnes":5
+},
+{
+"animal":"elaphant",
+"weight": {
+    "amount":{"min":2700 ,"max":4000} ,
+    "unit":"kg"
+},
+"location":["africa","asia"],
+"endangerd": true,
+"food":[ 
+    {"type":"leaves",
+    "amount":0.1},
+    {"type":"twigs",
+    "amount":0.15}, 
+    {"type": "fruit",
+    "amount":0.2},
+    {"type": "bark",
+    "amount":0.125},
+    {"type":"grass",
+    "amount":0.35},
+    {"type":"roots",
+    "amount":0.25}],
+"predators":["humans","lians","tigers","hyenas","wild dogs"],
+"deliciousnes":4
+},
+{
+"animal":"gray wolf",
+"weight": {
+    "amount":{"min":36 ,"max":45} ,
+    "unit":"kg"
+},
+"location":["north america","asia","europe"],
+"endangerd": true,
+"food":["deer","humans","sheep","cow"],
+"predators":["humans","tigers"],
+"deliciousnes":2
+}]
