@@ -2,8 +2,8 @@
 let data = JSON.parse(localStorage.wisdom || '[]')
 let place = () => {
     data.push({ text: $("input").val() })
-    if(truther) localStorage.wisdom = JSON.stringify(data) 
-    truther=!truther
+    if (truther) localStorage.wisdom = JSON.stringify(data)
+    truther = !truther
     render()
 }
 let render = () => {
@@ -11,6 +11,5 @@ let render = () => {
     data.forEach(t => $(`.fine`).append(`<p>${t.text}<button onclick="removeMe()"></p>`))
     $(`input`).val(``)
 }
-let removeMe=()=>
-let truther = false
+let removeMe = () =>truther = false
 render()
